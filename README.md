@@ -6,10 +6,6 @@
 
 简单的wordpress xmlrpc.php爆破脚本，可以自动从/wp/v2/users（CVE-2017-5487）接口获取用户名进行爆破，适用于大量的wordpress目标爆破
 
-> 注：wordpress默认站点密码需要勾选才能使用弱密码
-
-![image-20230320094756882](https://raw.githubusercontent.com/beytagh001/blog-img/main/image-20230320094756882.png)
-
 
 
 ### 用法
@@ -34,6 +30,10 @@ python3 wp_login.py -u https://test.com -user username.txt -pwd password.txt
 
 ![image-20230320093942348](https://raw.githubusercontent.com/beytagh001/blog-img/main/image-20230320093942348.png)
 
+
+> 注：wordpress默认站点密码需要勾选才能使用弱密码
+
+![image-20230320094756882](https://raw.githubusercontent.com/beytagh001/blog-img/main/image-20230320094756882.png)
 
 
 ### 免责声明
