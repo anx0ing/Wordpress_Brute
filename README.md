@@ -4,7 +4,7 @@
 
 ### 简介
 
-简单的wordpress xmlrpc.php爆破脚本，适用于大量的wordpress目标爆破
+简单的wordpress xmlrpc.php爆破脚本，可以自动从/wp/v2/users（CVE-2017-5487）接口获取用户名进行爆破，适用于大量的wordpress目标爆破
 
 > 注：wordpress默认站点密码需要勾选才能使用弱密码
 
